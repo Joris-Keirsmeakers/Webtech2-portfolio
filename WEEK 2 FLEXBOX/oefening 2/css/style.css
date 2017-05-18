@@ -1,0 +1,33 @@
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  padding:0px;
+
+}
+
+nav ul li{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width:50%;
+  margin: 5px 0;
+}
+
+.logo{
+  width: 100%;
+}
+
+
+
+#photos{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+#photos div{
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
